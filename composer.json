@@ -3,6 +3,7 @@
     "description": "Simply create Eloquent Models & database tables with UUID/GUID primary keys.",
     "type": "laravel-library",
     "license": "MIT",
+    "keywords": ["guid", "uuid", "laravel", "model"],
     "authors": [
         {
             "name": "Michal Kortas",
