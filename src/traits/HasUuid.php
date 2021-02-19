@@ -5,7 +5,7 @@ namespace michalkortas\LaravelGuid\traits;
 
 use Illuminate\Support\Str;
 
-class HasUuid
+trait HasUuid
 {
     protected static function boot()
     {
