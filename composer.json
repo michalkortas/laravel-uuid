@@ -1,0 +1,27 @@
+{
+    "name": "michalkortas/laravel-uuid",
+    "description": "Simply create Eloquent Models & database tables with UUID/GUID primary keys.",
+    "type": "laravel-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michal Kortas",
+            "email": "michal@webroad.pl"
+        }
+    ],
+    "autoload":  {
+        "psr-4": {
+            "michalkortas\\LaravelUuid\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "michalkortas\\LaravelUuid\\LaravelUuidServiceProvider"
+            ]
+        }
+    },
+
+    "minimum-stability": "dev",
+    "require": {}
+}
