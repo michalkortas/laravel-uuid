@@ -24,7 +24,7 @@ Add trait to your Eloquent Model.
 
 namespace AppModels;
 
-use michalkortas\laravel-uuid\HasUuid;
+use michalkortas\LaravelUuid\traits\HasUuid;
 use Illuminate\Database\Eloquent\Model;
 
 class Customers extends Model
