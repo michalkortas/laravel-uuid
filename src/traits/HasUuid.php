@@ -1,7 +1,7 @@
 <?php
 
 
-namespace michalkortas\LaravelGuid\traits;
+namespace michalkortas\LaravelUuid\traits;
 
 use Illuminate\Support\Str;
 
